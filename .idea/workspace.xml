@@ -40,7 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608317538943</updated>
       <workItem from="1608317539995" duration="10524000" />
-      <workItem from="1608386954200" duration="670000" />
+      <workItem from="1608386954200" duration="722000" />
     </task>
     <servers />
   </component>
@@ -60,5 +60,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="298" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608317565701" />
+    <state x="121" y="242" key="run.anything.popup" timestamp="1608387669718">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="121" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608387669718" />
   </component>
 </project>
