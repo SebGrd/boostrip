@@ -1,0 +1,32 @@
+.btn {
+  display: inline-block;
+  padding: 5px 10px;
+  background: $light;
+  border: 1px solid $primary;
+  border-radius: 6px;
+  color: $dark;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 200ms ease-in-out;
+
+  &:hover {
+    background: darken($light, 5%);
+  }
+}
+
+@each $color, $value in $colors {
+  .btn.btn-#{$color} {
+    background: $value;
+    border: 1px solid $value;
+    @if ($color == "dark") {
+      color: white;
+    }
+    @if ($color == "light") {
+      border: 1px solid $dark;
+    }
+
+    &:hover {
+      background: darken($value, 5%);
+    }
+  }
+}

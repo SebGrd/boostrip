@@ -1,0 +1,46 @@
+// Buttons
+.buttons .btn {
+  margin-bottom: 6px;
+}
+
+// Grid
+.exemple-block {
+  width: 100%;
+  height: 25px;
+  margin-bottom: 8px;
+  color: white;
+}
+
+// Breakpoints
+.breakpoints-bar{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+
+  &__bar{
+    height: 12px;
+    font-size: 12px;
+    color: white;
+    &--sm{
+      width: 576px;
+      background: orangered;
+    }
+    &--md{
+      width: 768px;
+      background: dodgerblue;
+    }
+    &--lg{
+      width: 992px;
+      background: rebeccapurple;
+    }
+    &--xl{
+      width: 1200px;
+      background: forestgreen;
+    }
+  }
+}

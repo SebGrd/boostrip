@@ -1,0 +1,44 @@
+.buttons .btn {
+  margin-bottom: 6px;
+}
+
+.exemple-block {
+  width: 100%;
+  height: 25px;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.breakpoints-bar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+.breakpoints-bar__bar {
+  height: 12px;
+  font-size: 12px;
+  color: white;
+}
+.breakpoints-bar__bar--sm {
+  width: 576px;
+  background: orangered;
+}
+.breakpoints-bar__bar--md {
+  width: 768px;
+  background: dodgerblue;
+}
+.breakpoints-bar__bar--lg {
+  width: 992px;
+  background: rebeccapurple;
+}
+.breakpoints-bar__bar--xl {
+  width: 1200px;
+  background: forestgreen;
+}
+
+/*# sourceMappingURL=demo.css.map */

@@ -1,0 +1,46 @@
+// breakpoints
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$breakpoints: (
+        "sm": $sm,
+        "md": $md,
+        "lg": $lg,
+        "xl": $xl
+) !default;
+
+$smContainerWidth: 540px;
+$mdContainerWidth: 720px;
+$lgContainerWidth: 960px;
+$xlContainerWidth: 1140px;
+
+$containerWidth: (
+        "sm": $smContainerWidth,
+        "md": $mdContainerWidth,
+        "lg": $lgContainerWidth,
+        "xl": $xlContainerWidth
+) !default;
+
+$gutter: 15px;
+
+// Colors
+$primary: #8363c8;
+$secondary: #7c7c81;
+$dark: #282d36;
+$light: white;
+$info: #42c8cb;
+$success: #62B94A;
+$warning: #F0C808;
+$danger: #d73231;
+
+$colors: (
+        "primary" : $primary,
+        "secondary" : $secondary,
+        "dark" : $dark,
+        "light" : $light,
+        "info" : $info,
+        "success" : $success,
+        "warning" : $warning,
+        "danger" : $danger,
+) !default;
